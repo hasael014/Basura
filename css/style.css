@@ -88,7 +88,48 @@ section {
     border-top-right-radius: 10px;
 }
 
+
+/*pagina 02*/
+
+#img_qes {
+    width: 100%;
+}
+
+#cabz_q {
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+    margin: 0% auto;
+    padding: 0px;
+}
+
+#c-img {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#text_q {
+    text-align: center;
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 350%;
+    background-color: rgba(0, 0, 0, 0.474);
+}
+
+#des_q {
+    text-align: center;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.747);
+}
+
 @media only screen and (min-width:20px) and (max-width:968px) {
+    /*pagina 01*/
     #cabz {
         width: 100%;
         vertical-align: text-bottom;
@@ -126,5 +167,36 @@ section {
         margin: 10px;
         border-color: black;
         font-size: 10px;
+    }
+    /*pagina 02*/
+    #img_qes {
+        width: 100%;
+    }
+    #cabz_q {
+        width: 100%;
+        vertical-align: top;
+        display: inline-block;
+    }
+    #c-img {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    #text_q {
+        text-align: center;
+        display: block;
+        position: absolute;
+        bottom: 0%;
+        height: 100%;
+        width: 100%;
+        padding: 10px 20px;
+        color: rgba(255, 255, 255, 0.705);
+        font-size: 160%;
+        background-color: rgba(0, 0, 0, 0.474);
+    }
+    #des_q {
+        text-align: center;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.747);
     }
 }
