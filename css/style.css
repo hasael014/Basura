@@ -118,4 +118,13 @@ section {
         margin: 0% auto;
         padding: 0px;
     }
+    #a-b {
+        background-color: rgba(5, 126, 35, 0.575);
+        text-align: center;
+        margin-top: 12px;
+        border-radius: 10px;
+        margin: 10px;
+        border-color: black;
+        font-size: 10px;
+    }
 }
